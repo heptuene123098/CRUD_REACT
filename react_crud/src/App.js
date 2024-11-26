@@ -1,7 +1,5 @@
 import {BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 import './App.css';
-import ListUser from './components/ListUser';
-import CreateUser from './components/CreateUser';
 
 
 function App() {
