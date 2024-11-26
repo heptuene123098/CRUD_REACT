@@ -14,7 +14,6 @@ export default function CreateUser() {
         event.preventDefault();
 
         axios.post('http://localhost:8888/api/user/save', inputs)
-        axios.post('http://localhost:80/phpmyadmin/api/user/save', inputs)
         console.log(inputs);
     }
     return(
