@@ -1,4 +1,5 @@
 import { useState } from "react";
+import axios from "axios";
 
 export default function CreateUser() {
 
@@ -12,6 +13,8 @@ export default function CreateUser() {
     const handleSubmit =(event) => {
         event.preventDefault();
 
+        axios.post('http://localhost:8888/api/user/save', inputs)
+        axios.post('http://localhost:80/phpmyadmin/api/user/save', inputs)
         console.log(inputs);
     }
     return(
