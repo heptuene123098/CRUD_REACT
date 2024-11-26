@@ -7,7 +7,7 @@ import ListUser from './components/ListUser';
 function App() {
   return (
     <div className="App">
-      <h5>REACT CRUD operations with PHP API and MYSQL</h5>
+      <h5>React CRUD operations using PHP API and MySQL</h5>
 
       <BrowserRouter>
         <nav>
@@ -22,8 +22,8 @@ function App() {
         </nav>
         <Routes>
           <Route index element={<ListUser />} />
-          <Route path='user/create' element={<CreateUser />} />
-          <Route path='user/:id/edit' element={<EditUser />} />
+          <Route path="user/create" element={<CreateUser />} />
+          <Route path="user/:id/edit" element={<EditUser />} />
         </Routes>
       </BrowserRouter>
     </div>
