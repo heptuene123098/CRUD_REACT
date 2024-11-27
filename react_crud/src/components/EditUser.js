@@ -32,7 +32,6 @@ export default function ListUser() {
             console.log(response.data);
             navigate('/');
         });
-        
     }
     return (
         <div>

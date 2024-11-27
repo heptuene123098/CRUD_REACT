@@ -2,11 +2,14 @@
 	/**
 	* Database Connection
 	*/
+
+
 	class DbConnect {
 		private $server = 'localhost';
 		private $dbname = 'react_crud';
 		private $user = 'root';
-		private $pass = '';
+		private $pass = 'root';
+		private $port = 3306;
 
 		public function connect() {
 			try {
